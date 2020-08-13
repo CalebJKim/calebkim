@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Caleb Kim</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1 id="abouthead">
+       Hello! I'm your innovative entrepreneur, Caleb Kim.
+    </h1>
+    <p id="aboutbody">
+      I am a senior at Henry M. Gunn High School invested in learning all about technology, entrepreneurship, and product development/management. 
+      I'm all about innovation, and love working on projects that challenge the status quo. I am always open to educate myself, and am passionate about project-based learning as I have
+      intellectually grown immense amounts from exploring my own passions in constructing business models, vertically differentiating product concepts, and coding/building both software and hardware
+      components of my technological ventures. I am hoping to use my experiences and knowledge to build impactful technology that caters to underserved necessities both now and in the future.
+    </p>
+    <p id="aboutpersonal">
+      Aside from my academic and work life, I love traveling and spending time with my family and friends. Some of my favorite activities are arranging songs for and playing the guitar,
+      working out, and exploring new foods to eat. At home, I spend time in the kitchen experimenting with new recipes. I am also an avid reader and stock trader.
+    </p>
+    <style>
+      .container {
+        position: relative;
+        width: 50%;
+      }
+      
+      .image {
+        width: 80%;
+        height: auto;
+        position: relative;
+        top: 680px;
+        right: 300px;
+      }
+      
+      .overlay {
+        position: absolute;
+        bottom: -680px;
+        right: 489px;
+        background-color: #008CBA;
+        overflow: hidden;
+        width: 80%;
+        height: 0;
+        transition: .5s ease;
+      }
+      
+      .container:hover .overlay {
+        height: 100%;
+      }
+      
+      .text {
+        white-space: nowrap;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      </style>
+  </body>
+  <div class="container">
+    <img src="/images/IMG_2416.JPG" alt="Avatar" class="image">
+    <div class="overlay">
+      <div class="text">New York City, NY <br>2019</div>
+    </div>
+  </div>
+</html>
