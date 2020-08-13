@@ -108,7 +108,7 @@ ul li a:hover:before
   animation-name: AboutMe;
   animation-duration: 5s;
   color: #fff;
-  bottom: 750px;
+  bottom: 85%;
 }
 @keyframes AboutMeBio
 {
@@ -131,8 +131,8 @@ ul li a:hover:before
   animation-name: AboutMeBio;
   animation-duration: 5s;
   color: #fff;
-  max-width: 1500px;
-  bottom: 320px;
+  max-width: 80%;
+  bottom: 40%;
 }
 @keyframes AboutMe2
 {
@@ -155,7 +155,7 @@ ul li a:hover:before
   animation-name: AboutMe2;
   animation-duration: 5s;
   color: #fff;
-  max-width: 1500px;
-  bottom: 100px;
+  max-width: 80%;
+  bottom: 10%;
 }
 
