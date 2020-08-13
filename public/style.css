@@ -74,8 +74,8 @@ ul li a:before
   content: '';
   position: absolute;
   top: 0;
-  left: -100px;
-  width: 80px;
+  left: -100%;
+  width: 20%;
   height: 100%;
   background: linear-gradient(90deg,transparent,rgba(255,255,255,0.8),transparent);
   transform: skewX(35deg);
@@ -103,7 +103,7 @@ ul li a:hover:before
 }
 #abouthead
 {
-  font-size: 60px;
+  font-size: 380%;
   position: absolute;
   animation-name: AboutMe;
   animation-duration: 5s;
@@ -126,7 +126,7 @@ ul li a:hover:before
 }
 #aboutbody
 {
-  font-size: 30px;
+  font-size: 180%;
   position: absolute;
   animation-name: AboutMeBio;
   animation-duration: 5s;
@@ -150,12 +150,12 @@ ul li a:hover:before
 }
 #aboutpersonal
 {
-  font-size: 30px;
+  font-size: 180%;
   position: absolute;
   animation-name: AboutMe2;
   animation-duration: 5s;
   color: #fff;
   max-width: 80%;
-  bottom: 10%;
+  bottom: 15%;
 }
 
