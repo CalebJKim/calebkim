@@ -68,6 +68,7 @@ body
     width: 94%;
   }
   
+  
   @media only screen and (max-width: 991px) {
     header {
       text-align: left;
