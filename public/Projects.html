@@ -1,37 +1,81 @@
-<!DOCTYPE html>
-	<html lang="en">
-	<head>
-	      <meta charset="UTF-8">
-	      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	      <title>Responsive Portfolio Page | HTML & CSS</title>
-	      <link rel="stylesheet" href="Projects.css">
-	      <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-	</head>
-	<body>
-	      <div class="wrapper">
-	            <header>
-	                  <h1 class="anim" id="ProjectHead">Projects & Ventures</h1>
-	            </header>
+<div class="nav">
+    <div class="nav-button"><a href=./index.html>Home</a></div>
+    <div class="nav-button"><a href=./About.html>About</a></div>
+    <div class="nav-button"><a href=./Contact.html>Contact</a></div>
+    <form method="get" action="./CalebKim_Resume.pdf">
+        <button type="submit" style="background-color: lightcoral;">Resume</button>
+    </form>
+</div>
 
-	            <div class="work">
-	                  <img class="anim" src="/images/Ocufy.png" alt="project img">
-	                  <img class="anim" src="/images/project2.jpg" alt="project img">
-	                  <img class="anim" src="/images/project3.jpg" alt="project img">
-	                  <img class="anim" src="/images/project4.jpg" alt="project img">
-	            </div>
+<header class="masthead clear">
+    <div class="centered">
+        <div class="site-branding">
+            <link rel="stylesheet" type="text/css" href="Projects.css">
+            <h1 class="site-title">Projects (click each to learn more)</h1>
+        </div>
+    </div>
+</header>
 
-	            <div class="header2">
-	                  <h1 class="anim">Other Projects</h1>
-	                  <p class="anim">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus sit necessitatibus, eos minima odio, ea ipsam, dicta nihil praesentium soluta fugit aspernatur nisi enim libero quos omnis? Optio suscipit quibusdam incidunt maiores repudiandae laudantium eaque, obcaecati totam architecto aut ab?</p>
-	            </div>
+<main class="main-area">
+    <div class="centered">
+        <section class="cards">
+            <article class="card">
+                <a href="https://tinyurl.com/OcufyExec">
+                    <picture class="thumbnail">
+                        <img src="/images/Ocufy.png" alt="Ocufy">
+                    </picture>
+                    <div class="card-content">
+                        <h2>Ocufy</h2>
+                        <p>After reaching out to nearby hostpitals and speaking with doctors, I found that it was extremely common for medical professionals to feel burnt out due to their longs hours spent in front of computer screens. The healthcare industry
+                            has an inefficient way of logging and retrieving patient data, so I led a team of 4 in building an augment reality program that could use machine learning to recognize patient faces, and bring up diagnostics and data in real-time.
+                            Doctors don't have to spend long hours at their monitors, as Ocufy allows them to simultaneously interact with patients and view and log information.
+                        </p>
+                    </div>
+                </a>
+            </article>
 
-	      </div>
-	      <script type="text/javascript">
-	            window.sr = ScrollReveal();
-	            sr.reveal('.anim');
-		  </script>
-		  
-
-	</body>
-	</html>
+            <article class="card">
+                <a href="https://tinyurl.com/StuNest">
+                    <picture class="thumbnail">
+                        <img src="/images/logo-2.png" alt="StudyNest">
+                    </picture>
+                    <div class="card-content">
+                        <h2>StudyNest</h2>
+                        <p>Students were found to be less productive across myriad studies when faced with loneliness. In hopes of solving both the atmosphere of solitude accompanying the COVID-19 pandemic and students' transition to online school, I built
+                            a web app that could connect students virtually in "study rooms" to encourage collaboration as well as productivity. Students can use tools such as an advanced calculator, a shared virtual whiteboard, and note sheet provided
+                            by the "online study room" alongside video chat. Students can also choose to be paired with other students on the network randomly in order to meet new people and to always have somebody to study with.</p>
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a href="https://tinyurl.com/unifyapp">
+                    <picture class="thumbnail">
+                        <img src="/images/unifylogo.png" alt="Unify">
+                    </picture>
+                    <div class="card-content">
+                        <h2>Unify</h2>
+                        <p>As a recent highschool graduate myself, the problem with researching colleges and envirsioning myself at one was a problem that was all-too-real. Though highschool students can find many logistics regarding universities through
+                            the internet such as student population and amounts of clubs on campus, it is hard for students to actually gain an insight into what life is like at certain colleges. They can captures small glimplses through vlogs on YouTube,
+                            but it is rare that they get an understanding of the full experience. Unify connects highschool students to college students who attend their prospective universities, respectively. They can ask questions about anything at
+                            school in order to "put themselves in the shoes of a university student." Highschool students can also hire college students that they connect with to counsel them in the application process. These college students are able
+                            to provide major and experience-specific advice for students, all for an affordable price.</p>
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a href="https://tinyurl.com/DineRight">
+                    <picture class="thumbnail">
+                        <img src="/images/dinerightimg.png" alt="Rapid">
+                    </picture>
+                    <div class="card-content">
+                        <h2>DineRight</h2>
+                        <p>An important part of the student experience is food. However, university dining halls are often met with scorn and unpopular opinions. In order to fix this issue, I set out to build DineRight. DineRight allows students to log in
+                            and view wait times for each campus dining hall as well as how populated they are, and real-time reviews that rate the menu items. They are also given dining hall recommendations based on their past favorite meals. Students
+                            can even view nutritional facts and which dining halls their friends are eating at. Dining hall managers can also use DineRight to improve their services, as they are provided a dashboard with data on how long students stay
+                            at their dining halls, what foods are popular/have been historically favorites, and ML suggestions for bettering the overall experience with data parsed from student reviews throguh NLP.</p>
+                    </div>
+                </a>
+            </article>
+        </section>
+    </div>
+</main>
